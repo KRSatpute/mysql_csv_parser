@@ -12,6 +12,11 @@ MySQL does not allow passing table variables to procedures. I developed this uti
   * Data type 'varchar(256)'
 * vw_generator views generate sequential numbers used in join to avoid looping. Sequence generated in order 16, 256, 4k, 64k, 1m
 
+#### Limitations
+* Does not support escape sequence.
+* Notintended to work with large csv's
+* Supported data types ````<int, int>, <string, varchar>, <float, decimal>, <date, date>, <datetime, datetime>, <bool, bit>````
+
 ##### HOW TO USE?
 
 ```MySQL
