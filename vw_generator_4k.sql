@@ -1,7 +1,4 @@
-CREATE 
-    ALGORITHM = UNDEFINED
-    SQL SECURITY DEFINER
-VIEW `vw_generator_4k` AS
+CREATE VIEW `vw_generator_4k` AS
     SELECT 
         ((`hi`.`n` << 8) | `lo`.`n`) AS `n`
     FROM
