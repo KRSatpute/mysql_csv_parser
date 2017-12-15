@@ -10,6 +10,7 @@ MySQL does not allow passing table variables to procedures. I developed this uti
   * Separator ','
   * Line break '\n'
   * Data type 'varchar(256)'
+* vw_generator views generate sequential numbers used in join to avoid looping. Sequence generated in order 16, 256, 4k, 64k, 1m
 
 ##### HOW TO USE?
 
