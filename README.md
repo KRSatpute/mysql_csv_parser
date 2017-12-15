@@ -14,7 +14,7 @@ MySQL does not allow passing table variables to procedures. I developed this uti
 
 #### Limitations
 * Does not support escape sequence.
-* Notintended to work with large csv's
+* Not intended to work with large csv's
 * Supported data types ````<int, int>, <string, varchar>, <float, decimal>, <date, date>, <datetime, datetime>, <bool, bit>````
 
 ##### HOW TO USE?
