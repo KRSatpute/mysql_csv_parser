@@ -1,7 +1,7 @@
 # mysql_csv_parser
 Parsing csv's and storing data in temp table for reuse
 
-MySQL does not allow passing table variables to procedures. I developed this utility to achieve that.
+MySQL does not allow passing table variables to procedures. I developed this utility as a workaround for that.
 
 * Building on top of the awesome [function provided by FEDERICO CARGNELUTTI](https://blog.fedecarg.com/2009/02/22/mysql-split-string-function/), mysql csv parser utility enables parsing of csv into a my sql temp table.
 * Pass the csv as string to the procedure and select from temp table to query the data.
