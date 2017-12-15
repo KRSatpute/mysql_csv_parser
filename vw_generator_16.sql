@@ -1,7 +1,4 @@
-CREATE 
-    ALGORITHM = UNDEFINED 
-    SQL SECURITY DEFINER
-VIEW `vw_generator_16` AS
+CREATE VIEW `vw_generator_16` AS
     SELECT 0 AS `n` 
     UNION ALL SELECT 1 AS `1` 
     UNION ALL SELECT 2 AS `2` 
